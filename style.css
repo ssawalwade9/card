@@ -32,6 +32,27 @@ body{
 .img2{
     border: 6px solid white;
     border-radius: 10px;
+    width:400px;
+    height:400px;
+    background-image: url(gift.jpeg);
+    background-size:cover ;
+    margin: 0 auto;
+}
+#img2-happy:hover{
+    background-image: url("happy.gif");
+    background-size: cover;
+}
+#img2-hot:hover{
+    background-image: url("hot.gif");
+    background-size: cover;
+}
+#img2-genius:hover{
+    background-image: url("genius.gif");
+    background-size: cover;
+}
+#img2-badass:hover{
+    background-image: url("badass.gif");
+    background-size: cover;
 }
 .gift{
      margin-top: 50px;
