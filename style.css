@@ -4,6 +4,7 @@ body{
     background-color: #a2d2ff;
     color: #ffffff;
     text-shadow: 2px 2px 2px black;
+    background: linear-gradient(blue,red,orange,purple);
 }
 #imgg{
     width: auto;
@@ -54,6 +55,14 @@ body{
     background-image: url("badass.gif");
     background-size: cover;
 }
+#img2-cheers:hover{
+    background-image: url("cheers.gif");
+    background-size: cover;
+    height: 200px;
+}
+#img2-cheers{
+    height: 200px;
+}
 .gift{
      margin-top: 50px;
 }
@@ -62,4 +71,13 @@ body{
 }
 .gift-title{
     margin-bottom: 10px;
+}
+footer{
+    font-style:italic ;
+    margin: 40px auto 40px auto;
+    font-size: larger;
+    color: white;
+}
+a{
+    color: white;
 }
